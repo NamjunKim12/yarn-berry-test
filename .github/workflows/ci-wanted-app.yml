@@ -27,5 +27,4 @@ jobs:
       - name: Build web-app
         working-directory: apps/wanted
         run: |
-          yarn install
           yarn build
